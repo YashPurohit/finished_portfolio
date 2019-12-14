@@ -1,11 +1,17 @@
 //WideScreens
 
 @include mediaXl{
+    .porjects {
+        grid-template-columns: repeat(4, 1fr);
+    }
     
 }
 //Desktops & Laptops
 
 @include mediaLg{
+    .porjects {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 }
 //Tablets & Small Laptops
@@ -58,6 +64,10 @@ div.menu-branding {
     
     grid-template-columns :1fr;
 }
+
+.porjects {
+    grid-template-columns: repeat(2, 1fr);
+}
 }
 
 
@@ -68,4 +78,7 @@ div.menu-branding {
         margin-top: 10vh;
     }
 
+    .porjects {
+        grid-template-columns: repeat 1fr;
+    }
 }
