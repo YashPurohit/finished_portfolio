@@ -1,0 +1,63 @@
+
+
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 500%;
+    font-weight: 700;
+    color: #eece1a;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+body{
+
+    margin:20px;
+    padding:0;
+    background-color: #444;
+
+}
+
+p{
+    font-family: 'Raleway', serif;
+    color: #fff;
+    font-size: 200%;
+    line-height: 2;
+    text-align: justify;
+    font-weight: 300;
+}
+
+
+
+
+.container {
+    max-width: 2500px;
+    margin: auto;
+    border: #fff solid 3px;
+    background: #444;
+}
+
+.main-img img, .imgs img {
+    width: 100%;
+
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+to {
+    opacity: 1;
+}
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in 1 forwards;
+}
